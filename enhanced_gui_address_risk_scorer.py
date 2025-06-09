@@ -66,7 +66,7 @@ class EnhancedRiskScorerGUI:
         # Transactions Input
         tk.Label(input_frame, text="Number of Transactions:", font=("Helvetica", 10), bg="#ffffff").grid(row=2, column=0, padx=5, pady=5, sticky="e")
         self.transactions_entry = tk.Entry(input_frame, width=20, font=("Helvetica", 10))
-        self.transactions_entry.grid(row=2, column Camus=1, padx=5, pady=5, sticky="w")
+        self.transactions_entry.grid(row=2, column=1, padx=5, pady=5, sticky="w")
 
         # Button Frame
         button_frame = tk.Frame(main_frame, bg="#f0f4f8")
